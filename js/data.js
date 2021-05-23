@@ -60,15 +60,17 @@ var w_data = [
             {
                 "name":"▨ modd",
                 "type":"link",
-                "data":"http://modd.farm/"
+                "data":"https://modd.farm/"
             },
             {
                 "name":"stereomohamed",
-                "type":"page"
+                "type":"link",
+                "data":"https://stereomohamed.altervista.org/"
             },
             {
                 "name":"audio-dh",
-                "type":"page"
+                "type":"link",
+                "data":"https://audiodh.nl/"
             },
             {
                 "name":"infrsnd",
@@ -84,11 +86,13 @@ var w_data = [
             },
             {
                 "name":"sface",
-                "type":"page"
+                "type":"link",
+                "data":"https://github.com/sfacee/sface" 
             },
             {
                 "name":"oddpubblications",
-                "type":"page"
+                "type":"link",
+                "data":"https://oddpublications.com/" 
             },
             {
                 "name":"3faders",
