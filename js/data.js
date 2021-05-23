@@ -90,6 +90,10 @@ var w_data = [
                 "name":"oddpubblications",
                 "type":"page"
             },
+            {
+                "name":"3faders",
+                "type":"page"
+            },
         ]
     },
     {
