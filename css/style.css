@@ -1,0 +1,64 @@
+/* 
+andrea vogrig © 2020
+static webstite template
+*/
+
+
+#header, #content, #home-link,.title {
+    width: 100%;
+}
+
+#footer {
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 10px;
+}
+
+body { 
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.line{
+    border-bottom:2px dotted black;
+    position:relative;
+    height:32px;
+    margin-bottom: 10px;
+}
+
+#home{
+    display: flex;
+}
+
+#about, #home-link,.title {
+    cursor: pointer;
+    color: black;
+}
+
+#about:hover,#home-link:hover, #logo:hover, .title:hover {
+    color: olive;
+}
+
+#logo {
+    font-size: 100% !important;
+    color: rgb(34, 34, 34);
+    text-decoration: unset;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 900px) {
+    body {
+        background-color: olive;
+        color:white;
+    }
+    
+    #about:hover,#home-link:hover, #logo:hover, .title:hover {
+        display: flex;
+        color:white;
+    }
+    .title{
+        font-size: 42px!important;
+    }
+}
